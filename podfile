@@ -1,0 +1,4 @@
+target "WhereToRide" do
+pod 'FMDB'
+pod 'Masonry'
+end
