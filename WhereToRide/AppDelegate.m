@@ -6,7 +6,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "OfficialViewController.h"
+#import "UserLikeViewController.h"
+#import "MyViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -15,7 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    
+    OfficialViewController *officialViewController = [[OfficialViewController alloc]init];
+    
+    UserLikeViewController *userLikeViewController = [[UserLikeViewController alloc]init];
+    userLikeViewController.title = @"骑士推荐";
+    MyViewController *myViewController = [[MyViewController alloc]init];
+    myViewController.title = @"我的";
+    [tabBarController setViewControllers:@[officialViewController,userLikeViewController,myViewController]];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:tabBarController];
+    [self.window setRootViewController:navigationController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

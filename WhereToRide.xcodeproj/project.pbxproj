@@ -14,6 +14,11 @@
 		5F7218D727F1530A0000EACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7218D527F1530A0000EACE /* LaunchScreen.storyboard */; };
 		5F7218DA27F1530A0000EACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218D927F1530A0000EACE /* main.m */; };
 		5F7218E127F156670000EACE /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5F7218E027F156670000EACE /* podfile */; };
+		5F7218EA27F1AE820000EACE /* OfficialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218E927F1AE820000EACE /* OfficialViewController.m */; };
+		5F7218F327F1AF230000EACE /* UserLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218F227F1AF230000EACE /* UserLikeViewController.m */; };
+		5F7218F927F1AF9A0000EACE /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218F827F1AF9A0000EACE /* MyViewController.m */; };
+		5F7218FC27F1B4B90000EACE /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218FB27F1B4B90000EACE /* Place.m */; };
+		5F7218FF27F1BBD90000EACE /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218FE27F1BBD90000EACE /* Comment.m */; };
 		705763BE5DC981B664F832D9 /* libPods-WhereToRide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DC6998D43E83594C47523 /* libPods-WhereToRide.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,16 @@
 		5F7218D827F1530A0000EACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F7218D927F1530A0000EACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F7218E027F156670000EACE /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; };
+		5F7218E827F1AE820000EACE /* OfficialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficialViewController.h; sourceTree = "<group>"; };
+		5F7218E927F1AE820000EACE /* OfficialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficialViewController.m; sourceTree = "<group>"; };
+		5F7218F127F1AF230000EACE /* UserLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLikeViewController.h; sourceTree = "<group>"; };
+		5F7218F227F1AF230000EACE /* UserLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLikeViewController.m; sourceTree = "<group>"; };
+		5F7218F727F1AF9A0000EACE /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		5F7218F827F1AF9A0000EACE /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		5F7218FA27F1B4B90000EACE /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		5F7218FB27F1B4B90000EACE /* Place.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		5F7218FD27F1BBD90000EACE /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		5F7218FE27F1BBD90000EACE /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		684264E39B36296853C3B517 /* Pods-WhereToRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToRide.release.xcconfig"; path = "Target Support Files/Pods-WhereToRide/Pods-WhereToRide.release.xcconfig"; sourceTree = "<group>"; };
 		CE3DC6998D43E83594C47523 /* libPods-WhereToRide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhereToRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +82,9 @@
 		5F7218C627F153080000EACE /* WhereToRide */ = {
 			isa = PBXGroup;
 			children = (
+				5F7218E627F1ADDE0000EACE /* OfficialPage */,
+				5F7218E527F1ADD20000EACE /* UserLikePage */,
+				5F7218E727F1ADFC0000EACE /* MyPage */,
 				5F7218E027F156670000EACE /* podfile */,
 				5F7218C727F153080000EACE /* AppDelegate.h */,
 				5F7218C827F153080000EACE /* AppDelegate.m */,
@@ -79,6 +97,109 @@
 				5F7218D927F1530A0000EACE /* main.m */,
 			);
 			path = WhereToRide;
+			sourceTree = "<group>";
+		};
+		5F7218E527F1ADD20000EACE /* UserLikePage */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218F027F1AF0A0000EACE /* Model */,
+				5F7218EF27F1AF030000EACE /* Views */,
+				5F7218EE27F1AEFA0000EACE /* Controller */,
+			);
+			path = UserLikePage;
+			sourceTree = "<group>";
+		};
+		5F7218E627F1ADDE0000EACE /* OfficialPage */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218ED27F1AEA10000EACE /* Model */,
+				5F7218EC27F1AE990000EACE /* Views */,
+				5F7218EB27F1AE890000EACE /* Controller */,
+			);
+			path = OfficialPage;
+			sourceTree = "<group>";
+		};
+		5F7218E727F1ADFC0000EACE /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218F627F1AF850000EACE /* Model */,
+				5F7218F527F1AF7D0000EACE /* Views */,
+				5F7218F427F1AF740000EACE /* Controller */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		5F7218EB27F1AE890000EACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218E827F1AE820000EACE /* OfficialViewController.h */,
+				5F7218E927F1AE820000EACE /* OfficialViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F7218EC27F1AE990000EACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F7218ED27F1AEA10000EACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218FA27F1B4B90000EACE /* Place.h */,
+				5F7218FB27F1B4B90000EACE /* Place.m */,
+				5F7218FD27F1BBD90000EACE /* Comment.h */,
+				5F7218FE27F1BBD90000EACE /* Comment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F7218EE27F1AEFA0000EACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218F127F1AF230000EACE /* UserLikeViewController.h */,
+				5F7218F227F1AF230000EACE /* UserLikeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F7218EF27F1AF030000EACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F7218F027F1AF0A0000EACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F7218F427F1AF740000EACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F7218F727F1AF9A0000EACE /* MyViewController.h */,
+				5F7218F827F1AF9A0000EACE /* MyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F7218F527F1AF7D0000EACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F7218F627F1AF850000EACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		890F2B157FD46C6D5F157221 /* Frameworks */ = {
@@ -95,7 +216,6 @@
 				5BE2FAB27FE271F913498016 /* Pods-WhereToRide.debug.xcconfig */,
 				684264E39B36296853C3B517 /* Pods-WhereToRide.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -196,9 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7218F927F1AF9A0000EACE /* MyViewController.m in Sources */,
 				5F7218CF27F153080000EACE /* ViewController.m in Sources */,
+				5F7218FC27F1B4B90000EACE /* Place.m in Sources */,
 				5F7218C927F153080000EACE /* AppDelegate.m in Sources */,
 				5F7218DA27F1530A0000EACE /* main.m in Sources */,
+				5F7218EA27F1AE820000EACE /* OfficialViewController.m in Sources */,
+				5F7218F327F1AF230000EACE /* UserLikeViewController.m in Sources */,
+				5F7218FF27F1BBD90000EACE /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

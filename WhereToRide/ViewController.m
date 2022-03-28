@@ -12,7 +12,15 @@
 @end
 
 @implementation ViewController
-
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        //self.tabBarItem.title = @"首页";
+        //self.tabBarItem.image = [UIImage systemImageNamed:@"bolt.horizontal.fill"];
+        self.tabBarItem.image = [UIImage systemImageNamed:@"bolt.horizontal.fill"];
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
