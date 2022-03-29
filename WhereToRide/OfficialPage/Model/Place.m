@@ -25,6 +25,7 @@
 //评论信息
 @property (nonatomic, strong)NSArray<Comment *> *comments;
 //目的地描述
+//目的地描述
 @property (nonatomic, copy, readwrite)NSString *descript;
 
 @end
