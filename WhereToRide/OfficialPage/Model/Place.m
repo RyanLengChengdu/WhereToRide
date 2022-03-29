@@ -10,6 +10,7 @@
 
 @interface Place ()
 @property(nonatomic,copy,readwrite)NSString *destination;
+
 //Location数组存放位置信息的经纬坐标
 @property(nonatomic,strong)NSArray * location;
 //图片信息
