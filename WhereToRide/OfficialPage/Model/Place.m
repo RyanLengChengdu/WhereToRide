@@ -13,6 +13,7 @@
 
 //Location数组存放位置信息的经纬坐标
 @property(nonatomic,strong)NSArray * location;
+
 //图片信息
 @property (nonatomic, strong)NSArray<NSData *> * photos;
 //完成人数
