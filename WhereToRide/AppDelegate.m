@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    //tabBarController.tabBar.layer.cornerRadius = 40;
+    //tabBarController.tabBar.layer.maskedCorners = kCALayerMinXMinYCorner | kCALayerMaxXMinYCorner;
     [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
     
     OfficialViewController *officialViewController = [[OfficialViewController alloc]init];

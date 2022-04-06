@@ -7,221 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0660043E126322CE482868258414FDC2 /* MASViewConstraint.m */; };
-		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AABE2EA86E6D94E252975713EDB899 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		064CA94AB19F9226BBBD11141B180D83 /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F70C4605E32F6F2D1996312DA0CD4C /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C0DCECF206BD1E22256D853E8A795B5 /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCD4AE4BA75DDBA17E110E552656CE9 /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F97F5714F5BBE02130300D93EF2453A /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC85D4AD8DA31C1BFDB2CB66E257E9C /* UIControl+CYLTabBarControllerExtention.m */; };
-		111B94C9934AC240C513A8F89C2532CD /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8718789BC23A85129A8365BCF4E2EE /* CYLTabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CEBEC49278106341B3A88AF46F57E70 /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B03C5867DBA48BE0724C9ABB292A73 /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DE0CD2FDCC1F7FDB547CFB8DEB6F1E7 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2363D481779FC952F30E27573B00C /* UITabBarItem+CYLTabBarControllerExtention.m */; };
-		1F8AEFB6DB89619BB0F966277D746DC3 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549026B92EFF5868FD356E79B00B160 /* UIView+CYLBadgeExtention.m */; };
-		212E3A6FE041013EAB39BD921317B82F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BDCDA83521DF4EAEB6367E6663782D /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22678A806326E8195F80CFC465BAB913 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = A0534547954DDAA3BC31858535FDF51B /* CYLTabBar+CYLTabBarControllerExtention.m */; };
-		22CC48A8D2BD227AEA453DA49A8573D4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D50200669E33890F9912E7A964F3958 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		289E5009E989E107ABFCA46B8F8A4905 /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E626ADCB43294FAAEFAF0A175C57DDC6 /* CYLTabBarController-dummy.m */; };
-		2E6DE70CC8E9CF2A1475A70CF83173B7 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7021B4E250F76B5A4132B694288345 /* UIBarButtonItem+CYLBadgeExtention.m */; };
-		32C93724987EEBD0CDDAB1637E63D01D /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC60CD607987C41AC511090A62EC1B /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33A10C214398F7741EF8328CB81B4851 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A64754994B0A0991FCE6AF90FB2A5F7F /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D147B14FEC6A8867C282CE87F7E70195 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB86407F05EDDF490A8F9D1DC5AB51 /* MASLayoutConstraint.m */; };
-		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D048860F2CD154197EF51FFEF944AD /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3E9A8F7C677F87705DE386E3B6BC62 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E811FA96C55A1D89592292076144E58 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		448121D65EA59638B2CA8D3F1B09C618 /* NSObject+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BCC0971DCD28218944C30853D15D94 /* NSObject+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B946B4F3F691F6F9FA7A12FE77E3CB /* MASConstraintMaker.m */; };
-		4C3B679043917C66F06110A0478CBFC6 /* UIColor+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DB2479B6471BAA918403B7F4781CB8 /* UIColor+CYLTabBarControllerExtention.m */; };
-		502086843BEBA1054B7313939E90F40F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 765743FED2A95701803DBF2EA7D8EA7C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		540BD9330C779EFC5D3994C706C5142A /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D21415272C2662BB2CA10442B23CBED /* CYLBaseNavigationController.m */; };
-		544D261E5D7C4624046539867184F785 /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = ED68069E36B4BC5E175D354CFE6791FF /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C53A9CE51B21FC0C4774F1F3EB0724D /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BF6906623CE62B427A0A87D1FE9A13 /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C8E38AA34964056A2B967471611778A /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7AD6401F35D6444E2E2C54DE3E54E /* CAAnimation+CYLBadgeExtention.m */; };
-		5CF5995870AD2D35815A8F239668244D /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA25B351D94011118E52BC91CC136FF /* CYLBaseTableViewController.m */; };
-		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0815EFF286622B569AE47DDB37BA533C /* NSArray+MASAdditions.m */; };
-		64C469D353196BA1A59596EB1731CDB1 /* UIColor+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 81706DEB0070A481E9A501F8465DBCEE /* UIColor+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6655F4E178741D2EF4557DC5D446232F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = EC62087030DC1A736BEC2D0DD80AC035 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AA43E47ADAD86A68509C27F37BC98E6 /* UIImage+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 2804A616D2858F773DAA252AAA3969A1 /* UIImage+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E5761B959952D035334BC5A4164539A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AF5245B7D5A7A189BEBB3C42E3104D /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A007C11C590505168A22C31F0AE067 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70806BE72C91E470BF1F142B34476D01 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C249347898BE275CE7EFC853EBF5A6A /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70983EE7A48B1F19F85AF0AAE73A1CC1 /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FABF5F588C1C293A44316971E8DFB356 /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		713B64DC0A9D7D317453BEA15E50E64B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE06CC5DA19086832243E8BADFD6BD /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		719023695C1B0E027C09067E4DBC48BA /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A6149DBC499311A5FE71170A09F3EF /* CYLTabBar.m */; };
-		736C2E617C630AB08E7EDDB7C9BEB581 /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0BD53370B7E7F7BEA312D56479A6EF /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76D07E3ED8E032E118901386EDB96225 /* Pods-WhereToRide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E470C27DA78D010BFCCF9106067E /* Pods-WhereToRide-dummy.m */; };
-		7B4A4BBF1ABA16D581FE0C7E02970906 /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BF529AF6BF9D6D50F9723487812108 /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E50129006FD6F7D7FAAE4DB5C3647E41 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8339F3E57EB1D890E5276A40215C2F7A /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4CEC05151516453F3B484FBC8BD930 /* CYLTabBarController.m */; };
-		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12FEE908D484A0A68D09F3323AF192 /* MASViewAttribute.m */; };
-		8456F81C9991639D008A674C9B827A46 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD7ED0BFCE1B3401E884ED53F7FC8D /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		855BCD77701412BBDA8FFB8CB568B0B8 /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CA1223F8CE7D9AF88F5B7C552C389C /* UIViewController+CYLNavigationControllerExtention.m */; };
-		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8815DB3E38524F896A5F5E3ED33FD /* MASCompositeConstraint.m */; };
-		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B59D497364F2FDC5BF4EAD8EF9BBC /* Masonry-dummy.m */; };
-		8D1EB2A53ADACE3C057947AFC2DD1D59 /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2C2AAFA9EAEC6D03822BC7FF60702 /* UIImage+CYLTabBarControllerExtention.m */; };
-		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D003B97A0EDA5D62296DFFB5AFA773EE /* View+MASAdditions.m */; };
-		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D0229DFE9F336FC6EB8BA35B7D69B0 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C9806AFC031617B11E4BEB63452EF6D /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 034A746F96304EE19B60DD762FB462B2 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A2801D9D4CE1B49964D765941AF1D414 /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A18F47FE9A1380F3BF3E0C09602DCE /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 84766ADD4D12FBBAF44904F82670916D /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ADB92C3A1F7EB496872F2C713F3D7C11 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 50352FB275D369169D2550CD94AFE185 /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE4D1E2711EFCB1965BBD8A6192E9482 /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC7FCD4E53301F7A7827E269141B9C /* CYLBaseViewController.m */; };
-		B1CFDA45CB1053A4B16F578338C13E99 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC152471145098178B93DE35A4907F6 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BCEE5520A857C867AFA8902F416C037E /* NSObject+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6A2CDA8B09C4DBFF5A7184BEC3223 /* NSObject+CYLTabBarControllerExtention.m */; };
-		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E48C6263F365E568FD4B08E58713B188 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F81FE1543FA512B55D80A07D871C35B5 /* MASConstraint.m */; };
-		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F93F3F0EDD713D864A0CD333580BBC4 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CFC03D146BA08AAFDF5A5543A30122C4 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D08C9C735003141AC9EBA7559E47B1 /* UIView+CYLTabBarControllerExtention.m */; };
-		D0C5BB8A6F0FCC0A4F5FAFACEDEABD90 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27257616F87303C07607A88F68A227D8 /* FMDB-dummy.m */; };
-		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D84A213FD18BA143335FD6D496F172E1 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3FC4FCC6AD1C280CED764924A83036D /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = B24429D57F48583954E8E3CF7CE7242D /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D695D7DE17D59FD039E2C7BC041A965 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF601EB723E8C992A5494A8575CAC07C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E24287AFE8206E8118B3D201AD5EE7EB /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 9563B810D8CEF5D928104201B2975C10 /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2B3B8E2A3BC8BAB90683E1E1043D4A6 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5E024BF3F49325E9FB07A54A9ADBFC /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2F135110FD4662A9F937575F2792554 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB01AE320EAA4C327B675A7E6B5B7D /* UIViewController+CYLTabBarControllerExtention.m */; };
-		EC61F135632C5DC6D4D6BB6F96F14919 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = FE457DC569F5D5F6B1C89EA53263CF43 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF8DE8390E4174132B9AB2CC4EAD412C /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F63B44FD4E114195181C18F3CF5E84 /* CYLConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB328412C01D02A0AA56BC9A127E522 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F420A4AC5E77862DE70607F03982469F /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BF4DE6206DAB05F01EE5817ABE3F3 /* CYLPlusButton.m */; };
-		F9462A523434BB60000F8C668776F724 /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA984AE2F52FBA594FF4C499734D673 /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C763E8C61BCE506D5A84A92D4223BFA /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D6A8F1FB1603F15B12D4BDDE1EAE63 /* ViewController+MASAdditions.m */; };
-		FEAD8C8CA60ED46452ADBB9274F3472C /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CB19DDF53B306A35A2C77F99244444 /* UITabBarItem+CYLBadgeExtention.m */; };
+		011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCB2CB52223B859EEB12C99A8BB3E6 /* MASViewConstraint.m */; };
+		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6FBEA35ADB3F020FAC3D73C611825F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1397081EA0BE2A8DB34C22361D5FDEAB /* QiCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = D02E939140B36B2F82963603F84600A5 /* QiCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		212E3A6FE041013EAB39BD921317B82F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9FBFEF7D196525D2A6BB1708BF6771 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22CC48A8D2BD227AEA453DA49A8573D4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C96A5B58ACC02977E28E8423D007A1 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33A10C214398F7741EF8328CB81B4851 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 675BAB9DDF2561ED896D1AF5E367C59B /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A5B5EA604096E56D1AAF74A3374020 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9701687C83697974FC718C2F6725D8 /* MASLayoutConstraint.m */; };
+		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE2DD6302F4F06EA9E13F1BD5019099 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D49786627329A3630AC381D03386BA /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5403276DDFA2A6BC0F3F27B674951D7C /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF23E33093ED9A0585CA008EE4CD955 /* MASConstraintMaker.m */; };
+		4BE92B6D350AC79677E6FE07367391B6 /* QiCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D388DEF110DEBDAC9D225A4BF99BB293 /* QiCardView-dummy.m */; };
+		502086843BEBA1054B7313939E90F40F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6B9A1DC71CCFA0A97ACD6D4E136734 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		505A3997C0C83AFE29EF7872AC4B4E2A /* QiCardViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7F030BA951409CD87F9A9803153AD8 /* QiCardViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA6745094AFD42A661625C7BA446A6 /* NSArray+MASAdditions.m */; };
+		6655F4E178741D2EF4557DC5D446232F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FFEB1BB1B4ABE29C2F39D96AED9FBC /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E5761B959952D035334BC5A4164539A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D57704218CA78D842A7BE33851F6434 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C681232567181452AA18ABF368B2EDE /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		713B64DC0A9D7D317453BEA15E50E64B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D88E55C3D1359C797C807723BCB68078 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F2A480841DF1A728C71416FBC432CF0 /* Pods-WhereToRide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E470C27DA78D010BFCCF9106067E /* Pods-WhereToRide-dummy.m */; };
+		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A8A148D2A7B560D7BAF3D365DCBA92 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BC181320D50CF7207C41353AC48B /* MASViewAttribute.m */; };
+		8456F81C9991639D008A674C9B827A46 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A66599FA86D1068D1F2B61C86292B6D4 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5146AE895646FE24BF7B22F16767E0 /* MASCompositeConstraint.m */; };
+		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E744C3A65ADE03E8CEF50A02163622E1 /* Masonry-dummy.m */; };
+		9021C9119EC8866FD93183CC2E9D69A6 /* QiCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC64C45950CF9BF25E1691234F98BE7 /* QiCardView.m */; };
+		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4059FECEE9A55558BCD72360E35BC9F8 /* View+MASAdditions.m */; };
+		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFE14ED8FEA78D42C48566D37145533 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05025AAE05E19E4A587B4BE268461C14 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B14F8713F834A2EE9BB728A41C10AE46 /* QiCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 669A522650CE61EDADD5FB6F15BB1B1D /* QiCardViewCell.m */; };
+		B1CFDA45CB1053A4B16F578338C13E99 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0D1978B04B9ED21DE557FEAC14743 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C081EA304F771CB9CF8F663337492BAF /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAA46CFD52CA1EB19925EDE3531FCC1 /* MASConstraint.m */; };
+		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9895F8BF049F8BA3DB21A0C8A3D925 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0C5BB8A6F0FCC0A4F5FAFACEDEABD90 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEFC0BB2EBEC3411530678069F0104A /* FMDB-dummy.m */; };
+		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8F046B088066EA2DBE259DBEE1C4C4 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8FD95459D7C558A2E21F126CFA1647 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C7351DF5F62EB285C68521A13109D8A7 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2B3B8E2A3BC8BAB90683E1E1043D4A6 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 63916477547C83B2AFFE57A721D7CE46 /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC61F135632C5DC6D4D6BB6F96F14919 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 148502E35835A9F6D4383D64C341DB91 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E17015DD11B5C267D3D1CE5DD3E302 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1F8D4E6683D3F4D406F52403503BD /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BAAAE32E942F6FFAA0876FBE313B42 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68CDDF8203DC09FA6E9D6165A5AE72FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		8BD405BBE31C22E6301259EE6223F3DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8534B493C62D81C69516B0E9599CEF36;
-			remoteInfo = CYLTabBarController;
-		};
-		F722C9DC0903F4F09C43B73F12C17483 /* PBXContainerItemProxy */ = {
+		5F16CAE19F0456C9536CAEB1C5DD7559 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
+		92FD646D3292BEFDEFC09DCAB173ADAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3527AEA6985AE09694C5FD0F2863842A;
+			remoteInfo = QiCardView;
+		};
+		E932B1A9BCAC57AFBFFF4A6F6849A1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D6A8F1FB1603F15B12D4BDDE1EAE63 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		034A746F96304EE19B60DD762FB462B2 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
-		0660043E126322CE482868258414FDC2 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		0815EFF286622B569AE47DDB37BA533C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		0AC152471145098178B93DE35A4907F6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		13DC60CD607987C41AC511090A62EC1B /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
+		05025AAE05E19E4A587B4BE268461C14 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0B8F046B088066EA2DBE259DBEE1C4C4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0ECA6745094AFD42A661625C7BA446A6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		148502E35835A9F6D4383D64C341DB91 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		1A7F030BA951409CD87F9A9803153AD8 /* QiCardViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiCardViewCell.h; path = QiCardView/QiCardView/View/QiCardView/QiCardViewCell.h; sourceTree = "<group>"; };
+		1E9FBFEF7D196525D2A6BB1708BF6771 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		1F8FD95459D7C558A2E21F126CFA1647 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		23D0229DFE9F336FC6EB8BA35B7D69B0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		27257616F87303C07607A88F68A227D8 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		2804A616D2858F773DAA252AAA3969A1 /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		29CB19DDF53B306A35A2C77F99244444 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		2B3E9A8F7C677F87705DE386E3B6BC62 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		2FFE06CC5DA19086832243E8BADFD6BD /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		28FBB5381886D46DC91A6E851B536821 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2C5146AE895646FE24BF7B22F16767E0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2C681232567181452AA18ABF368B2EDE /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		32167F2782FBD248AAA06218C77A83D5 /* Pods-WhereToRide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhereToRide-acknowledgements.markdown"; sourceTree = "<group>"; };
-		364B59D497364F2FDC5BF4EAD8EF9BBC /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		37BCC0971DCD28218944C30853D15D94 /* NSObject+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		3AA2C2AAFA9EAEC6D03822BC7FF60702 /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		3C763E8C61BCE506D5A84A92D4223BFA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		3F93F3F0EDD713D864A0CD333580BBC4 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		41CA1223F8CE7D9AF88F5B7C552C389C /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
-		4207DEB18C191C92B5B795C0DDB1C0AB /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
-		4C249347898BE275CE7EFC853EBF5A6A /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		4D2E6C51B026499B283611DA52FDE2FE /* libPods-WhereToRide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhereToRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50352FB275D369169D2550CD94AFE185 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		54FB01AE320EAA4C327B675A7E6B5B7D /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		5812BDD082193C9A21882AF358C80A8E /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		5D0BD53370B7E7F7BEA312D56479A6EF /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
-		60DB2479B6471BAA918403B7F4781CB8 /* UIColor+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		61BF6906623CE62B427A0A87D1FE9A13 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		32D0D1978B04B9ED21DE557FEAC14743 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3BEDAFAB6E09B400536FE77F83BF523D /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		4059FECEE9A55558BCD72360E35BC9F8 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		45D49786627329A3630AC381D03386BA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		49BAAAE32E942F6FFAA0876FBE313B42 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4D2E6C51B026499B283611DA52FDE2FE /* Pods-WhereToRide */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-WhereToRide"; path = "libPods-WhereToRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5403276DDFA2A6BC0F3F27B674951D7C /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		61C3E470C27DA78D010BFCCF9106067E /* Pods-WhereToRide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhereToRide-dummy.m"; sourceTree = "<group>"; };
-		65F63B44FD4E114195181C18F3CF5E84 /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
-		70D81DAB703581E18E6BDB046BDFDFD8 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		73A18F47FE9A1380F3BF3E0C09602DCE /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		73A6149DBC499311A5FE71170A09F3EF /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
-		75D6A2CDA8B09C4DBFF5A7184BEC3223 /* NSObject+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		75F70C4605E32F6F2D1996312DA0CD4C /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
-		765743FED2A95701803DBF2EA7D8EA7C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		7D21415272C2662BB2CA10442B23CBED /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
-		7D496A73A67EB3B13BE75043665381B4 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		7D695D7DE17D59FD039E2C7BC041A965 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		7E811FA96C55A1D89592292076144E58 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		7E8718789BC23A85129A8365BCF4E2EE /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CYLTabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		81706DEB0070A481E9A501F8465DBCEE /* UIColor+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		82B946B4F3F691F6F9FA7A12FE77E3CB /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		84766ADD4D12FBBAF44904F82670916D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8549026B92EFF5868FD356E79B00B160 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		8A86F4FC194BDAB30F8DD76A8BC914E3 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		8CD50D22137078E2B751E206AFCA011A /* CYLTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.debug.xcconfig; sourceTree = "<group>"; };
-		8CD8815DB3E38524F896A5F5E3ED33FD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		8D50200669E33890F9912E7A964F3958 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CYLTabBarController; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9563B810D8CEF5D928104201B2975C10 /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
-		98B2363D481779FC952F30E27573B00C /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		9BBB86407F05EDDF490A8F9D1DC5AB51 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0534547954DDAA3BC31858535FDF51B /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CYLTabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		A0CD7ED0BFCE1B3401E884ED53F7FC8D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		63916477547C83B2AFFE57A721D7CE46 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		669A522650CE61EDADD5FB6F15BB1B1D /* QiCardViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QiCardViewCell.m; path = QiCardView/QiCardView/View/QiCardView/QiCardViewCell.m; sourceTree = "<group>"; };
+		675BAB9DDF2561ED896D1AF5E367C59B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6EBCB2CB52223B859EEB12C99A8BB3E6 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		6EC64C45950CF9BF25E1691234F98BE7 /* QiCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QiCardView.m; path = QiCardView/QiCardView/View/QiCardView/QiCardView.m; sourceTree = "<group>"; };
+		72C96A5B58ACC02977E28E8423D007A1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		75A8A148D2A7B560D7BAF3D365DCBA92 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		7BFE14ED8FEA78D42C48566D37145533 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		84168B305B2D20ED3CB1FACB18A796CA /* QiCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiCardView.release.xcconfig; sourceTree = "<group>"; };
+		8745BC181320D50CF7207C41353AC48B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		8AF23E33093ED9A0585CA008EE4CD955 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		8CD4FC4EAE8DFE9DA2213C853E316023 /* QiCardView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = QiCardView; path = libQiCardView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D57704218CA78D842A7BE33851F6434 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		8F16474CE342EDE622A6BFBA6C2CD2B2 /* QiCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiCardView-prefix.pch"; sourceTree = "<group>"; };
+		94DA5C9F2FA870703294B18277183570 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE2DD6302F4F06EA9E13F1BD5019099 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FMDB; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A59BC51E67069F4270999B5BECC4A959 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		A5C226C9F2BC21759E301C093D7CB08A /* CYLTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		A4662708E2EAF2308E0F2AC1D3309F93 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
 		A63E34370FF976F0E96CC288CA76565B /* Pods-WhereToRide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhereToRide-acknowledgements.plist"; sourceTree = "<group>"; };
-		A64754994B0A0991FCE6AF90FB2A5F7F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		AC5E024BF3F49325E9FB07A54A9ADBFC /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
-		AD4CEC05151516453F3B484FBC8BD930 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
-		B0AABE2EA86E6D94E252975713EDB899 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		B0B7AD6401F35D6444E2E2C54DE3E54E /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		B24429D57F48583954E8E3CF7CE7242D /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		B4D048860F2CD154197EF51FFEF944AD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		A66599FA86D1068D1F2B61C86292B6D4 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		AB9895F8BF049F8BA3DB21A0C8A3D925 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		AC6FBEA35ADB3F020FAC3D73C611825F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		ACEFC0BB2EBEC3411530678069F0104A /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		B0FFEB1BB1B4ABE29C2F39D96AED9FBC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B4E17015DD11B5C267D3D1CE5DD3E302 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B6B1F8D4E6683D3F4D406F52403503BD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		B7DEE01B158E7BECD1AAA0E6CEB8214F /* QiCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiCardView.debug.xcconfig; sourceTree = "<group>"; };
 		BEF54725B3A60A795A52116C1F699371 /* Pods-WhereToRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhereToRide.debug.xcconfig"; sourceTree = "<group>"; };
-		BFCD4AE4BA75DDBA17E110E552656CE9 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		C776C8781C8692B15A8C2B9F59101B78 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
-		CA12FEE908D484A0A68D09F3323AF192 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		CBA25B351D94011118E52BC91CC136FF /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
-		CE3BF4DE6206DAB05F01EE5817ABE3F3 /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
-		D003B97A0EDA5D62296DFFB5AFA773EE /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		D0A007C11C590505168A22C31F0AE067 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		D0BC7FCD4E53301F7A7827E269141B9C /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
-		D147B14FEC6A8867C282CE87F7E70195 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		D84A213FD18BA143335FD6D496F172E1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		DBC85D4AD8DA31C1BFDB2CB66E257E9C /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		E48C6263F365E568FD4B08E58713B188 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		E50129006FD6F7D7FAAE4DB5C3647E41 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		E5B03C5867DBA48BE0724C9ABB292A73 /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		E626ADCB43294FAAEFAF0A175C57DDC6 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
-		EC62087030DC1A736BEC2D0DD80AC035 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		ED68069E36B4BC5E175D354CFE6791FF /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
-		EF601EB723E8C992A5494A8575CAC07C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F4BDCDA83521DF4EAEB6367E6663782D /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		F4D08C9C735003141AC9EBA7559E47B1 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		F6BF529AF6BF9D6D50F9723487812108 /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
-		F81FE1543FA512B55D80A07D871C35B5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		F8AF5245B7D5A7A189BEBB3C42E3104D /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		FABF5F588C1C293A44316971E8DFB356 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		C081EA304F771CB9CF8F663337492BAF /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		C7351DF5F62EB285C68521A13109D8A7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D02E939140B36B2F82963603F84600A5 /* QiCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiCardView.h; path = QiCardView/QiCardView/View/QiCardView/QiCardView.h; sourceTree = "<group>"; };
+		D388DEF110DEBDAC9D225A4BF99BB293 /* QiCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiCardView-dummy.m"; sourceTree = "<group>"; };
+		D88E55C3D1359C797C807723BCB68078 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		DA6B9A1DC71CCFA0A97ACD6D4E136734 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		DB1AF24990600342E53511C5AB4D2BFD /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		E744C3A65ADE03E8CEF50A02163622E1 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E7A5B5EA604096E56D1AAF74A3374020 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		EE8576490DFCDDD12070510E598BFA06 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		EE9701687C83697974FC718C2F6725D8 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		FAF909D42F47E153FABB0F6BB4F74AC4 /* Pods-WhereToRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhereToRide.release.xcconfig"; sourceTree = "<group>"; };
-		FCA984AE2F52FBA594FF4C499734D673 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		FE457DC569F5D5F6B1C89EA53263CF43 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		FF7021B4E250F76B5A4132B694288345 /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		FFB328412C01D02A0AA56BC9A127E522 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		FFAA46CFD52CA1EB19925EDE3531FCC1 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		249F248B69E4CF18C9CA9124406B4FD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E97E61A720017ED3FF8337BD6156369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,14 +150,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		616AD6E3A6DED4B44916006449D94B16 /* Frameworks */ = {
+		907AD26A9F98C723CE396A46535B55F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AD26A9F98C723CE396A46535B55F5 /* Frameworks */ = {
+		B92E31FC7A874580F0FFFB379DA972BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D3F83DA107AFE26CEBE5142EB8086E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,18 +182,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2B8B91D25EDFD92F0D5E8AF1483CF3F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				364B59D497364F2FDC5BF4EAD8EF9BBC /* Masonry-dummy.m */,
-				70D81DAB703581E18E6BDB046BDFDFD8 /* Masonry-prefix.pch */,
-				A59BC51E67069F4270999B5BECC4A959 /* Masonry.debug.xcconfig */,
-				5812BDD082193C9A21882AF358C80A8E /* Masonry.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
 		2E8B9B9E9C66969BF74337EBFBF61208 /* Pods-WhereToRide */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,132 +195,113 @@
 			path = "Target Support Files/Pods-WhereToRide";
 			sourceTree = "<group>";
 		};
-		5365CDD7B0C8EAE601043C6B44B4C552 /* Pods */ = {
+		5B9EC83D42E83A1552AB59344D6AF248 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6130E6A2AD8E987838C8C909C384B14C /* CYLTabBarController */,
-				FBDA16BF3255902C35B57E7678424F37 /* FMDB */,
-				A37741903D274181D23D37CD0FB848BB /* Masonry */,
+				ACEFC0BB2EBEC3411530678069F0104A /* FMDB-dummy.m */,
+				3BEDAFAB6E09B400536FE77F83BF523D /* FMDB-prefix.pch */,
+				EE8576490DFCDDD12070510E598BFA06 /* FMDB.debug.xcconfig */,
+				A4662708E2EAF2308E0F2AC1D3309F93 /* FMDB.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		6130E6A2AD8E987838C8C909C384B14C /* CYLTabBarController */ = {
+		5E9E8C78B666B94FC4C6ED503B8B3E9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B10030EDD83A7457846360A2D7B3486C /* Core */,
-				E44E251CD9271C985B7A2955DAB9BDDC /* Support Files */,
+				D388DEF110DEBDAC9D225A4BF99BB293 /* QiCardView-dummy.m */,
+				8F16474CE342EDE622A6BFBA6C2CD2B2 /* QiCardView-prefix.pch */,
+				B7DEE01B158E7BECD1AAA0E6CEB8214F /* QiCardView.debug.xcconfig */,
+				84168B305B2D20ED3CB1FACB18A796CA /* QiCardView.release.xcconfig */,
 			);
-			path = CYLTabBarController;
+			name = "Support Files";
+			path = "../Target Support Files/QiCardView";
 			sourceTree = "<group>";
 		};
-		A37741903D274181D23D37CD0FB848BB /* Masonry */ = {
+		7D27064528CE3E02E2ED5B7BDC2207A6 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				D84A213FD18BA143335FD6D496F172E1 /* MASCompositeConstraint.h */,
-				8CD8815DB3E38524F896A5F5E3ED33FD /* MASCompositeConstraint.m */,
-				E50129006FD6F7D7FAAE4DB5C3647E41 /* MASConstraint.h */,
-				F81FE1543FA512B55D80A07D871C35B5 /* MASConstraint.m */,
-				7E811FA96C55A1D89592292076144E58 /* MASConstraint+Private.h */,
-				23D0229DFE9F336FC6EB8BA35B7D69B0 /* MASConstraintMaker.h */,
-				82B946B4F3F691F6F9FA7A12FE77E3CB /* MASConstraintMaker.m */,
-				B0AABE2EA86E6D94E252975713EDB899 /* MASLayoutConstraint.h */,
-				9BBB86407F05EDDF490A8F9D1DC5AB51 /* MASLayoutConstraint.m */,
-				3F93F3F0EDD713D864A0CD333580BBC4 /* Masonry.h */,
-				E48C6263F365E568FD4B08E58713B188 /* MASUtilities.h */,
-				D0A007C11C590505168A22C31F0AE067 /* MASViewAttribute.h */,
-				CA12FEE908D484A0A68D09F3323AF192 /* MASViewAttribute.m */,
-				FFB328412C01D02A0AA56BC9A127E522 /* MASViewConstraint.h */,
-				0660043E126322CE482868258414FDC2 /* MASViewConstraint.m */,
-				7D695D7DE17D59FD039E2C7BC041A965 /* NSArray+MASAdditions.h */,
-				0815EFF286622B569AE47DDB37BA533C /* NSArray+MASAdditions.m */,
-				84766ADD4D12FBBAF44904F82670916D /* NSArray+MASShorthandAdditions.h */,
-				2B3E9A8F7C677F87705DE386E3B6BC62 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				3C763E8C61BCE506D5A84A92D4223BFA /* NSLayoutConstraint+MASDebugAdditions.m */,
-				D147B14FEC6A8867C282CE87F7E70195 /* View+MASAdditions.h */,
-				D003B97A0EDA5D62296DFFB5AFA773EE /* View+MASAdditions.m */,
-				EF601EB723E8C992A5494A8575CAC07C /* View+MASShorthandAdditions.h */,
-				B4D048860F2CD154197EF51FFEF944AD /* ViewController+MASAdditions.h */,
-				00D6A8F1FB1603F15B12D4BDDE1EAE63 /* ViewController+MASAdditions.m */,
-				2B8B91D25EDFD92F0D5E8AF1483CF3F8 /* Support Files */,
+				0B8F046B088066EA2DBE259DBEE1C4C4 /* MASCompositeConstraint.h */,
+				2C5146AE895646FE24BF7B22F16767E0 /* MASCompositeConstraint.m */,
+				75A8A148D2A7B560D7BAF3D365DCBA92 /* MASConstraint.h */,
+				FFAA46CFD52CA1EB19925EDE3531FCC1 /* MASConstraint.m */,
+				5403276DDFA2A6BC0F3F27B674951D7C /* MASConstraint+Private.h */,
+				7BFE14ED8FEA78D42C48566D37145533 /* MASConstraintMaker.h */,
+				8AF23E33093ED9A0585CA008EE4CD955 /* MASConstraintMaker.m */,
+				AC6FBEA35ADB3F020FAC3D73C611825F /* MASLayoutConstraint.h */,
+				EE9701687C83697974FC718C2F6725D8 /* MASLayoutConstraint.m */,
+				AB9895F8BF049F8BA3DB21A0C8A3D925 /* Masonry.h */,
+				C081EA304F771CB9CF8F663337492BAF /* MASUtilities.h */,
+				2C681232567181452AA18ABF368B2EDE /* MASViewAttribute.h */,
+				8745BC181320D50CF7207C41353AC48B /* MASViewAttribute.m */,
+				B4E17015DD11B5C267D3D1CE5DD3E302 /* MASViewConstraint.h */,
+				6EBCB2CB52223B859EEB12C99A8BB3E6 /* MASViewConstraint.m */,
+				1F8FD95459D7C558A2E21F126CFA1647 /* NSArray+MASAdditions.h */,
+				0ECA6745094AFD42A661625C7BA446A6 /* NSArray+MASAdditions.m */,
+				05025AAE05E19E4A587B4BE268461C14 /* NSArray+MASShorthandAdditions.h */,
+				45D49786627329A3630AC381D03386BA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				B6B1F8D4E6683D3F4D406F52403503BD /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E7A5B5EA604096E56D1AAF74A3374020 /* View+MASAdditions.h */,
+				4059FECEE9A55558BCD72360E35BC9F8 /* View+MASAdditions.m */,
+				C7351DF5F62EB285C68521A13109D8A7 /* View+MASShorthandAdditions.h */,
+				9DE2DD6302F4F06EA9E13F1BD5019099 /* ViewController+MASAdditions.h */,
+				49BAAAE32E942F6FFAA0876FBE313B42 /* ViewController+MASAdditions.m */,
+				A8E1DD61E3DDF166CA485913CC07CE12 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		A56E8863DA7C4D55822C38481897290E /* Products */ = {
+		86047B649DF25CE60C1D46FF297E1037 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController */,
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
-				4D2E6C51B026499B283611DA52FDE2FE /* libPods-WhereToRide.a */,
+				A9204AC0AB4FA9AB61329AF49DE54C8B /* standard */,
+				5B9EC83D42E83A1552AB59344D6AF248 /* Support Files */,
 			);
-			name = Products;
+			name = FMDB;
+			path = FMDB;
 			sourceTree = "<group>";
 		};
-		B10030EDD83A7457846360A2D7B3486C /* Core */ = {
+		A8E1DD61E3DDF166CA485913CC07CE12 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B24429D57F48583954E8E3CF7CE7242D /* CAAnimation+CYLBadgeExtention.h */,
-				B0B7AD6401F35D6444E2E2C54DE3E54E /* CAAnimation+CYLBadgeExtention.m */,
-				75F70C4605E32F6F2D1996312DA0CD4C /* CYLBadgeProtocol.h */,
-				ED68069E36B4BC5E175D354CFE6791FF /* CYLBaseNavigationController.h */,
-				7D21415272C2662BB2CA10442B23CBED /* CYLBaseNavigationController.m */,
-				FABF5F588C1C293A44316971E8DFB356 /* CYLBaseTableViewController.h */,
-				CBA25B351D94011118E52BC91CC136FF /* CYLBaseTableViewController.m */,
-				13DC60CD607987C41AC511090A62EC1B /* CYLBaseViewController.h */,
-				D0BC7FCD4E53301F7A7827E269141B9C /* CYLBaseViewController.m */,
-				65F63B44FD4E114195181C18F3CF5E84 /* CYLConstants.h */,
-				5D0BD53370B7E7F7BEA312D56479A6EF /* CYLPlusButton.h */,
-				CE3BF4DE6206DAB05F01EE5817ABE3F3 /* CYLPlusButton.m */,
-				034A746F96304EE19B60DD762FB462B2 /* CYLTabBar.h */,
-				73A6149DBC499311A5FE71170A09F3EF /* CYLTabBar.m */,
-				7E8718789BC23A85129A8365BCF4E2EE /* CYLTabBar+CYLTabBarControllerExtention.h */,
-				A0534547954DDAA3BC31858535FDF51B /* CYLTabBar+CYLTabBarControllerExtention.m */,
-				F6BF529AF6BF9D6D50F9723487812108 /* CYLTabBarController.h */,
-				AD4CEC05151516453F3B484FBC8BD930 /* CYLTabBarController.m */,
-				37BCC0971DCD28218944C30853D15D94 /* NSObject+CYLTabBarControllerExtention.h */,
-				75D6A2CDA8B09C4DBFF5A7184BEC3223 /* NSObject+CYLTabBarControllerExtention.m */,
-				4C249347898BE275CE7EFC853EBF5A6A /* UIBarButtonItem+CYLBadgeExtention.h */,
-				FF7021B4E250F76B5A4132B694288345 /* UIBarButtonItem+CYLBadgeExtention.m */,
-				81706DEB0070A481E9A501F8465DBCEE /* UIColor+CYLTabBarControllerExtention.h */,
-				60DB2479B6471BAA918403B7F4781CB8 /* UIColor+CYLTabBarControllerExtention.m */,
-				FCA984AE2F52FBA594FF4C499734D673 /* UIControl+CYLTabBarControllerExtention.h */,
-				DBC85D4AD8DA31C1BFDB2CB66E257E9C /* UIControl+CYLTabBarControllerExtention.m */,
-				2804A616D2858F773DAA252AAA3969A1 /* UIImage+CYLTabBarControllerExtention.h */,
-				3AA2C2AAFA9EAEC6D03822BC7FF60702 /* UIImage+CYLTabBarControllerExtention.m */,
-				BFCD4AE4BA75DDBA17E110E552656CE9 /* UITabBarItem+CYLBadgeExtention.h */,
-				29CB19DDF53B306A35A2C77F99244444 /* UITabBarItem+CYLBadgeExtention.m */,
-				50352FB275D369169D2550CD94AFE185 /* UITabBarItem+CYLTabBarControllerExtention.h */,
-				98B2363D481779FC952F30E27573B00C /* UITabBarItem+CYLTabBarControllerExtention.m */,
-				E5B03C5867DBA48BE0724C9ABB292A73 /* UIView+CYLBadgeExtention.h */,
-				8549026B92EFF5868FD356E79B00B160 /* UIView+CYLBadgeExtention.m */,
-				61BF6906623CE62B427A0A87D1FE9A13 /* UIView+CYLTabBarControllerExtention.h */,
-				F4D08C9C735003141AC9EBA7559E47B1 /* UIView+CYLTabBarControllerExtention.m */,
-				9563B810D8CEF5D928104201B2975C10 /* UIViewController+CYLNavigationControllerExtention.h */,
-				41CA1223F8CE7D9AF88F5B7C552C389C /* UIViewController+CYLNavigationControllerExtention.m */,
-				73A18F47FE9A1380F3BF3E0C09602DCE /* UIViewController+CYLTabBarControllerExtention.h */,
-				54FB01AE320EAA4C327B675A7E6B5B7D /* UIViewController+CYLTabBarControllerExtention.m */,
+				E744C3A65ADE03E8CEF50A02163622E1 /* Masonry-dummy.m */,
+				28FBB5381886D46DC91A6E851B536821 /* Masonry-prefix.pch */,
+				94DA5C9F2FA870703294B18277183570 /* Masonry.debug.xcconfig */,
+				DB1AF24990600342E53511C5AB4D2BFD /* Masonry.release.xcconfig */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		C41FD26E955CFFCE5569472F315C8311 /* standard */ = {
+		A9204AC0AB4FA9AB61329AF49DE54C8B /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				F4BDCDA83521DF4EAEB6367E6663782D /* FMDatabase.h */,
-				A0CD7ED0BFCE1B3401E884ED53F7FC8D /* FMDatabase.m */,
-				A64754994B0A0991FCE6AF90FB2A5F7F /* FMDatabaseAdditions.h */,
-				0AC152471145098178B93DE35A4907F6 /* FMDatabaseAdditions.m */,
-				765743FED2A95701803DBF2EA7D8EA7C /* FMDatabasePool.h */,
-				F8AF5245B7D5A7A189BEBB3C42E3104D /* FMDatabasePool.m */,
-				EC62087030DC1A736BEC2D0DD80AC035 /* FMDatabaseQueue.h */,
-				8D50200669E33890F9912E7A964F3958 /* FMDatabaseQueue.m */,
-				FE457DC569F5D5F6B1C89EA53263CF43 /* FMDB.h */,
-				AC5E024BF3F49325E9FB07A54A9ADBFC /* FMResultSet.h */,
-				2FFE06CC5DA19086832243E8BADFD6BD /* FMResultSet.m */,
+				1E9FBFEF7D196525D2A6BB1708BF6771 /* FMDatabase.h */,
+				A66599FA86D1068D1F2B61C86292B6D4 /* FMDatabase.m */,
+				675BAB9DDF2561ED896D1AF5E367C59B /* FMDatabaseAdditions.h */,
+				32D0D1978B04B9ED21DE557FEAC14743 /* FMDatabaseAdditions.m */,
+				DA6B9A1DC71CCFA0A97ACD6D4E136734 /* FMDatabasePool.h */,
+				8D57704218CA78D842A7BE33851F6434 /* FMDatabasePool.m */,
+				B0FFEB1BB1B4ABE29C2F39D96AED9FBC /* FMDatabaseQueue.h */,
+				72C96A5B58ACC02977E28E8423D007A1 /* FMDatabaseQueue.m */,
+				148502E35835A9F6D4383D64C341DB91 /* FMDB.h */,
+				63916477547C83B2AFFE57A721D7CE46 /* FMResultSet.h */,
+				D88E55C3D1359C797C807723BCB68078 /* FMResultSet.m */,
 			);
 			name = standard;
+			sourceTree = "<group>";
+		};
+		B17B9A08A352A828E385EA4223A4EF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				4D2E6C51B026499B283611DA52FDE2FE /* Pods-WhereToRide */,
+				8CD4FC4EAE8DFE9DA2213C853E316023 /* QiCardView */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -412,8 +309,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				5365CDD7B0C8EAE601043C6B44B4C552 /* Pods */,
-				A56E8863DA7C4D55822C38481897290E /* Products */,
+				FED1662C2BA4975DC068C87EAA4D197A /* Pods */,
+				B17B9A08A352A828E385EA4223A4EF36 /* Products */,
 				1CBFAC6A13BA921C8DEB19A2A6C70C3C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -425,37 +322,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E44E251CD9271C985B7A2955DAB9BDDC /* Support Files */ = {
+		F70B5BA0BFDD122C78EF4EDA442C5D10 /* QiCardView */ = {
 			isa = PBXGroup;
 			children = (
-				E626ADCB43294FAAEFAF0A175C57DDC6 /* CYLTabBarController-dummy.m */,
-				7D496A73A67EB3B13BE75043665381B4 /* CYLTabBarController-prefix.pch */,
-				8CD50D22137078E2B751E206AFCA011A /* CYLTabBarController.debug.xcconfig */,
-				A5C226C9F2BC21759E301C093D7CB08A /* CYLTabBarController.release.xcconfig */,
+				D02E939140B36B2F82963603F84600A5 /* QiCardView.h */,
+				6EC64C45950CF9BF25E1691234F98BE7 /* QiCardView.m */,
+				1A7F030BA951409CD87F9A9803153AD8 /* QiCardViewCell.h */,
+				669A522650CE61EDADD5FB6F15BB1B1D /* QiCardViewCell.m */,
+				5E9E8C78B666B94FC4C6ED503B8B3E9A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CYLTabBarController";
+			name = QiCardView;
+			path = QiCardView;
 			sourceTree = "<group>";
 		};
-		F63FF6AF5E133057A58D3428FF9638AE /* Support Files */ = {
+		FED1662C2BA4975DC068C87EAA4D197A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27257616F87303C07607A88F68A227D8 /* FMDB-dummy.m */,
-				8A86F4FC194BDAB30F8DD76A8BC914E3 /* FMDB-prefix.pch */,
-				C776C8781C8692B15A8C2B9F59101B78 /* FMDB.debug.xcconfig */,
-				4207DEB18C191C92B5B795C0DDB1C0AB /* FMDB.release.xcconfig */,
+				86047B649DF25CE60C1D46FF297E1037 /* FMDB */,
+				7D27064528CE3E02E2ED5B7BDC2207A6 /* Masonry */,
+				F70B5BA0BFDD122C78EF4EDA442C5D10 /* QiCardView */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FMDB";
-			sourceTree = "<group>";
-		};
-		FBDA16BF3255902C35B57E7678424F37 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				C41FD26E955CFFCE5569472F315C8311 /* standard */,
-				F63FF6AF5E133057A58D3428FF9638AE /* Support Files */,
-			);
-			path = FMDB;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,10 +370,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D52C01DBF062D89A7DC2A5367503072 /* Headers */ = {
+		2EEA482D9118DF8316C72F272B10FCF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1397081EA0BE2A8DB34C22361D5FDEAB /* QiCardView.h in Headers */,
+				505A3997C0C83AFE29EF7872AC4B4E2A /* QiCardViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,37 +392,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67573C1B74F9B1CE92E80AE28EA69BAD /* Headers */ = {
+		7CFD9BB311419F20FB2DF5CF4B6851CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FC4FCC6AD1C280CED764924A83036D /* CAAnimation+CYLBadgeExtention.h in Headers */,
-				064CA94AB19F9226BBBD11141B180D83 /* CYLBadgeProtocol.h in Headers */,
-				544D261E5D7C4624046539867184F785 /* CYLBaseNavigationController.h in Headers */,
-				70983EE7A48B1F19F85AF0AAE73A1CC1 /* CYLBaseTableViewController.h in Headers */,
-				32C93724987EEBD0CDDAB1637E63D01D /* CYLBaseViewController.h in Headers */,
-				EF8DE8390E4174132B9AB2CC4EAD412C /* CYLConstants.h in Headers */,
-				736C2E617C630AB08E7EDDB7C9BEB581 /* CYLPlusButton.h in Headers */,
-				9C9806AFC031617B11E4BEB63452EF6D /* CYLTabBar.h in Headers */,
-				111B94C9934AC240C513A8F89C2532CD /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */,
-				7B4A4BBF1ABA16D581FE0C7E02970906 /* CYLTabBarController.h in Headers */,
-				448121D65EA59638B2CA8D3F1B09C618 /* NSObject+CYLTabBarControllerExtention.h in Headers */,
-				70806BE72C91E470BF1F142B34476D01 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */,
-				64C469D353196BA1A59596EB1731CDB1 /* UIColor+CYLTabBarControllerExtention.h in Headers */,
-				F9462A523434BB60000F8C668776F724 /* UIControl+CYLTabBarControllerExtention.h in Headers */,
-				6AA43E47ADAD86A68509C27F37BC98E6 /* UIImage+CYLTabBarControllerExtention.h in Headers */,
-				0C0DCECF206BD1E22256D853E8A795B5 /* UITabBarItem+CYLBadgeExtention.h in Headers */,
-				ADB92C3A1F7EB496872F2C713F3D7C11 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */,
-				1CEBEC49278106341B3A88AF46F57E70 /* UIView+CYLBadgeExtention.h in Headers */,
-				5C53A9CE51B21FC0C4774F1F3EB0724D /* UIView+CYLTabBarControllerExtention.h in Headers */,
-				E24287AFE8206E8118B3D201AD5EE7EB /* UIViewController+CYLNavigationControllerExtention.h in Headers */,
-				A2801D9D4CE1B49964D765941AF1D414 /* UIViewController+CYLTabBarControllerExtention.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3527AEA6985AE09694C5FD0F2863842A /* QiCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105728B073D64C3F7E2A8159CA1251C8 /* Build configuration list for PBXNativeTarget "QiCardView" */;
+			buildPhases = (
+				2EEA482D9118DF8316C72F272B10FCF0 /* Headers */,
+				8D87DF6560E5C2286BBCA43CFDFA9778 /* Sources */,
+				F6D3F83DA107AFE26CEBE5142EB8086E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiCardView;
+			productName = QiCardView;
+			productReference = 8CD4FC4EAE8DFE9DA2213C853E316023 /* QiCardView */;
+			productType = "com.apple.product-type.library.static";
+		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6525CCFB5FEEBC36FDDE16A88CD85B83 /* Build configuration list for PBXNativeTarget "Masonry" */;
@@ -549,23 +434,6 @@
 			name = Masonry;
 			productName = Masonry;
 			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 486058F6119AC3D5C2E4361123819DC8 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
-			buildPhases = (
-				67573C1B74F9B1CE92E80AE28EA69BAD /* Headers */,
-				16A0D4CA3D11BF97DD52EBA6AAD11AE3 /* Sources */,
-				616AD6E3A6DED4B44916006449D94B16 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CYLTabBarController;
-			productName = CYLTabBarController;
-			productReference = 906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
@@ -587,22 +455,22 @@
 		};
 		8A4ADE4109C22E650CB3555222FFCC99 /* Pods-WhereToRide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F963624186183C67EFA8C3AE5390CAA /* Build configuration list for PBXNativeTarget "Pods-WhereToRide" */;
+			buildConfigurationList = 269A1454E0A9EB21919CA9C240AFA450 /* Build configuration list for PBXNativeTarget "Pods-WhereToRide" */;
 			buildPhases = (
-				4D52C01DBF062D89A7DC2A5367503072 /* Headers */,
-				9A50288D43DEB7F44735808AFF45A8C8 /* Sources */,
-				249F248B69E4CF18C9CA9124406B4FD8 /* Frameworks */,
+				7CFD9BB311419F20FB2DF5CF4B6851CC /* Headers */,
+				BA8386EDC9FF5E217CD79EA308EF9AE5 /* Sources */,
+				B92E31FC7A874580F0FFFB379DA972BE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C3C99AF5B3C2BF141BF4E6CF2DCE201 /* PBXTargetDependency */,
-				6825B9AEAE7A935C2CBE21ECB0BA7A2A /* PBXTargetDependency */,
-				CFE6375100F8FEEAC43A5CC9AA42F4B4 /* PBXTargetDependency */,
+				70BDA3CA2A25F2EB26FD8FE62CEA3A6C /* PBXTargetDependency */,
+				42DAC0F44D3A00E93951285CB7AF9FF9 /* PBXTargetDependency */,
+				6D3C37355CDB8DA5FDA29C46F48269BE /* PBXTargetDependency */,
 			);
 			name = "Pods-WhereToRide";
 			productName = "Pods-WhereToRide";
-			productReference = 4D2E6C51B026499B283611DA52FDE2FE /* libPods-WhereToRide.a */;
+			productReference = 4D2E6C51B026499B283611DA52FDE2FE /* Pods-WhereToRide */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -623,14 +491,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A56E8863DA7C4D55822C38481897290E /* Products */;
+			productRefGroup = B17B9A08A352A828E385EA4223A4EF36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */,
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				8A4ADE4109C22E650CB3555222FFCC99 /* Pods-WhereToRide */,
+				3527AEA6985AE09694C5FD0F2863842A /* QiCardView */,
 			);
 		};
 /* End PBXProject section */
@@ -646,33 +514,6 @@
 				22CC48A8D2BD227AEA453DA49A8573D4 /* FMDatabaseQueue.m in Sources */,
 				D0C5BB8A6F0FCC0A4F5FAFACEDEABD90 /* FMDB-dummy.m in Sources */,
 				713B64DC0A9D7D317453BEA15E50E64B /* FMResultSet.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		16A0D4CA3D11BF97DD52EBA6AAD11AE3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C8E38AA34964056A2B967471611778A /* CAAnimation+CYLBadgeExtention.m in Sources */,
-				540BD9330C779EFC5D3994C706C5142A /* CYLBaseNavigationController.m in Sources */,
-				5CF5995870AD2D35815A8F239668244D /* CYLBaseTableViewController.m in Sources */,
-				AE4D1E2711EFCB1965BBD8A6192E9482 /* CYLBaseViewController.m in Sources */,
-				F420A4AC5E77862DE70607F03982469F /* CYLPlusButton.m in Sources */,
-				719023695C1B0E027C09067E4DBC48BA /* CYLTabBar.m in Sources */,
-				22678A806326E8195F80CFC465BAB913 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
-				8339F3E57EB1D890E5276A40215C2F7A /* CYLTabBarController.m in Sources */,
-				289E5009E989E107ABFCA46B8F8A4905 /* CYLTabBarController-dummy.m in Sources */,
-				BCEE5520A857C867AFA8902F416C037E /* NSObject+CYLTabBarControllerExtention.m in Sources */,
-				2E6DE70CC8E9CF2A1475A70CF83173B7 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
-				4C3B679043917C66F06110A0478CBFC6 /* UIColor+CYLTabBarControllerExtention.m in Sources */,
-				0F97F5714F5BBE02130300D93EF2453A /* UIControl+CYLTabBarControllerExtention.m in Sources */,
-				8D1EB2A53ADACE3C057947AFC2DD1D59 /* UIImage+CYLTabBarControllerExtention.m in Sources */,
-				FEAD8C8CA60ED46452ADBB9274F3472C /* UITabBarItem+CYLBadgeExtention.m in Sources */,
-				1DE0CD2FDCC1F7FDB547CFB8DEB6F1E7 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
-				1F8AEFB6DB89619BB0F966277D746DC3 /* UIView+CYLBadgeExtention.m in Sources */,
-				CFC03D146BA08AAFDF5A5543A30122C4 /* UIView+CYLTabBarControllerExtention.m in Sources */,
-				855BCD77701412BBDA8FFB8CB568B0B8 /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
-				E2F135110FD4662A9F937575F2792554 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,63 +535,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A50288D43DEB7F44735808AFF45A8C8 /* Sources */ = {
+		8D87DF6560E5C2286BBCA43CFDFA9778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D07E3ED8E032E118901386EDB96225 /* Pods-WhereToRide-dummy.m in Sources */,
+				9021C9119EC8866FD93183CC2E9D69A6 /* QiCardView.m in Sources */,
+				4BE92B6D350AC79677E6FE07367391B6 /* QiCardView-dummy.m in Sources */,
+				B14F8713F834A2EE9BB728A41C10AE46 /* QiCardViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8386EDC9FF5E217CD79EA308EF9AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2A480841DF1A728C71416FBC432CF0 /* Pods-WhereToRide-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6825B9AEAE7A935C2CBE21ECB0BA7A2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 68CDDF8203DC09FA6E9D6165A5AE72FA /* PBXContainerItemProxy */;
-		};
-		9C3C99AF5B3C2BF141BF4E6CF2DCE201 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CYLTabBarController;
-			target = 8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */;
-			targetProxy = 8BD405BBE31C22E6301259EE6223F3DB /* PBXContainerItemProxy */;
-		};
-		CFE6375100F8FEEAC43A5CC9AA42F4B4 /* PBXTargetDependency */ = {
+		42DAC0F44D3A00E93951285CB7AF9FF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = F722C9DC0903F4F09C43B73F12C17483 /* PBXContainerItemProxy */;
+			targetProxy = 5F16CAE19F0456C9536CAEB1C5DD7559 /* PBXContainerItemProxy */;
+		};
+		6D3C37355CDB8DA5FDA29C46F48269BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiCardView;
+			target = 3527AEA6985AE09694C5FD0F2863842A /* QiCardView */;
+			targetProxy = 92FD646D3292BEFDEFC09DCAB173ADAB /* PBXContainerItemProxy */;
+		};
+		70BDA3CA2A25F2EB26FD8FE62CEA3A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = E932B1A9BCAC57AFBFFF4A6F6849A1D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		169577A9FA312C8AA2E26E44ADA49C70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAF909D42F47E153FABB0F6BB4F74AC4 /* Pods-WhereToRide.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		1D5A617C6D29C80A010800BBFB7774FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C776C8781C8692B15A8C2B9F59101B78 /* FMDB.debug.xcconfig */;
+			baseConfigurationReference = EE8576490DFCDDD12070510E598BFA06 /* FMDB.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -771,31 +600,9 @@
 			};
 			name = Debug;
 		};
-		2E15CB2DC96910303F6BAF40C3EBDEF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CD50D22137078E2B751E206AFCA011A /* CYLTabBarController.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CYLTabBarController;
-				PRODUCT_NAME = CYLTabBarController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		5689B70536028B61AFC9A47197395506 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A59BC51E67069F4270999B5BECC4A959 /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = 94DA5C9F2FA870703294B18277183570 /* Masonry.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,32 +622,30 @@
 			};
 			name = Debug;
 		};
-		6F87CE3D2A05D2D0FA0077FBC200F479 /* Release */ = {
+		6A1E2C91AFECA2CB84C06BBBAEF94A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5C226C9F2BC21759E301C093D7CB08A /* CYLTabBarController.release.xcconfig */;
+			baseConfigurationReference = BEF54725B3A60A795A52116C1F699371 /* Pods-WhereToRide.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CYLTabBarController;
-				PRODUCT_NAME = CYLTabBarController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		7C02F194CB4B2B50EA320F9EFA7CD08B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5812BDD082193C9A21882AF358C80A8E /* Masonry.release.xcconfig */;
+			baseConfigurationReference = DB1AF24990600342E53511C5AB4D2BFD /* Masonry.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -863,7 +668,7 @@
 		};
 		8A2AC2BE025CD007E40B359FDE9A3D93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4207DEB18C191C92B5B795C0DDB1C0AB /* FMDB.release.xcconfig */;
+			baseConfigurationReference = A4662708E2EAF2308E0F2AC1D3309F93 /* FMDB.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1013,9 +818,9 @@
 			};
 			name = Debug;
 		};
-		C1482472A08020D51D740328F3E55411 /* Debug */ = {
+		9575D95E971EA4F15BF6237D73DF3552 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF54725B3A60A795A52116C1F699371 /* Pods-WhereToRide.debug.xcconfig */;
+			baseConfigurationReference = FAF909D42F47E153FABB0F6BB4F74AC4 /* Pods-WhereToRide.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1031,35 +836,83 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98198B9E3CD377EED93BDCF659218B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DEE01B158E7BECD1AAA0E6CEB8214F /* QiCardView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QiCardView/QiCardView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QiCardView;
+				PRODUCT_NAME = QiCardView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		D2D2CF543FE60FCD5D57EAB14390F53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84168B305B2D20ED3CB1FACB18A796CA /* QiCardView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QiCardView/QiCardView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QiCardView;
+				PRODUCT_NAME = QiCardView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		105728B073D64C3F7E2A8159CA1251C8 /* Build configuration list for PBXNativeTarget "QiCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98198B9E3CD377EED93BDCF659218B9E /* Debug */,
+				D2D2CF543FE60FCD5D57EAB14390F53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269A1454E0A9EB21919CA9C240AFA450 /* Build configuration list for PBXNativeTarget "Pods-WhereToRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1E2C91AFECA2CB84C06BBBAEF94A4B /* Debug */,
+				9575D95E971EA4F15BF6237D73DF3552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				934ED2B84836A780113D1F63484628B2 /* Debug */,
 				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		486058F6119AC3D5C2E4361123819DC8 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E15CB2DC96910303F6BAF40C3EBDEF0 /* Debug */,
-				6F87CE3D2A05D2D0FA0077FBC200F479 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F963624186183C67EFA8C3AE5390CAA /* Build configuration list for PBXNativeTarget "Pods-WhereToRide" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1482472A08020D51D740328F3E55411 /* Debug */,
-				169577A9FA312C8AA2E26E44ADA49C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

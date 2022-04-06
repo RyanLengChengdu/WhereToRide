@@ -15,10 +15,15 @@
 -(instancetype)init{
     if (self = [super init]) {
         self.tabBarItem.title = @"骑士推荐";
-        self.tabBarItem.image = [UIImage systemImageNamed:@"gearshape.2.fill"];
-        self.tabBarItem.selectedImage = [UIImage systemImageNamed:@"gearshape.2.fill"];
+       self.tabBarItem.image = [[UIImage imageNamed:@"tabbar_icon_rider"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        self.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_icon_rider"];
     }
     return self;
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.topItem.title = @"骑士推荐";
+    self.navigationController.navigationBar.topItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemPause target:self action:@selector(_self_Info)];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

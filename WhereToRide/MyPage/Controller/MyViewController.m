@@ -15,8 +15,9 @@
 -(instancetype)init{
     if (self = [super init]) {
         self.tabBarItem.title = @"我的";
-        self.tabBarItem.image = [UIImage systemImageNamed:@"person.2.wave.2.fill"];
-        self.tabBarItem.selectedImage = [UIImage systemImageNamed:@"person.2.wave.2.fill"];
+        self.tabBarItem.title = @"星选";
+        self.tabBarItem.image = [[UIImage imageNamed:@"tabbar_icon_my"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        self.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_icon_my"];
     }
     return self;
 }

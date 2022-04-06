@@ -3,20 +3,24 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
+  - QiCardView (0.0.1)
 
 DEPENDENCIES:
   - FMDB
   - Masonry
+  - QiCardView
 
 SPEC REPOS:
   trunk:
     - FMDB
     - Masonry
+    - QiCardView
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QiCardView: 172ebf2a585673319ba7ca143bb561b28cb03a17
 
-PODFILE CHECKSUM: 911ff85d70ef10bcbd6fdbb5c874273d8484ee9b
+PODFILE CHECKSUM: fea4a7d6345edd809a4c5548d51b2c93bc8518ac
 
 COCOAPODS: 1.11.3

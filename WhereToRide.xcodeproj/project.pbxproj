@@ -19,6 +19,7 @@
 		5F7218F927F1AF9A0000EACE /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218F827F1AF9A0000EACE /* MyViewController.m */; };
 		5F7218FC27F1B4B90000EACE /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218FB27F1B4B90000EACE /* Place.m */; };
 		5F7218FF27F1BBD90000EACE /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7218FE27F1BBD90000EACE /* Comment.m */; };
+		5FE0898F27FD8A2700D4B7F3 /* QiCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0898E27FD8A2700D4B7F3 /* QiCardCell.m */; };
 		705763BE5DC981B664F832D9 /* libPods-WhereToRide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DC6998D43E83594C47523 /* libPods-WhereToRide.a */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +35,7 @@
 		5F7218D627F1530A0000EACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F7218D827F1530A0000EACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F7218D927F1530A0000EACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F7218E027F156670000EACE /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; };
+		5F7218E027F156670000EACE /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F7218E827F1AE820000EACE /* OfficialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficialViewController.h; sourceTree = "<group>"; };
 		5F7218E927F1AE820000EACE /* OfficialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficialViewController.m; sourceTree = "<group>"; };
 		5F7218F127F1AF230000EACE /* UserLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLikeViewController.h; sourceTree = "<group>"; };
@@ -45,6 +46,8 @@
 		5F7218FB27F1B4B90000EACE /* Place.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		5F7218FD27F1BBD90000EACE /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 		5F7218FE27F1BBD90000EACE /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		5FE0898D27FD8A2700D4B7F3 /* QiCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCardCell.h; sourceTree = "<group>"; };
+		5FE0898E27FD8A2700D4B7F3 /* QiCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCardCell.m; sourceTree = "<group>"; };
 		684264E39B36296853C3B517 /* Pods-WhereToRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToRide.release.xcconfig"; path = "Target Support Files/Pods-WhereToRide/Pods-WhereToRide.release.xcconfig"; sourceTree = "<group>"; };
 		CE3DC6998D43E83594C47523 /* libPods-WhereToRide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhereToRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,6 +144,8 @@
 		5F7218EC27F1AE990000EACE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5FE0898D27FD8A2700D4B7F3 /* QiCardCell.h */,
+				5FE0898E27FD8A2700D4B7F3 /* QiCardCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 				5F7218DA27F1530A0000EACE /* main.m in Sources */,
 				5F7218EA27F1AE820000EACE /* OfficialViewController.m in Sources */,
 				5F7218F327F1AF230000EACE /* UserLikeViewController.m in Sources */,
+				5FE0898F27FD8A2700D4B7F3 /* QiCardCell.m in Sources */,
 				5F7218FF27F1BBD90000EACE /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
